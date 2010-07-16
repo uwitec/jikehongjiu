@@ -1,0 +1,13 @@
+系统环境：本系统是MYECLIPSE 7.0+MS2005+TOMCAT6.0
+配置源程序:
+将MDF数据库文件导入Microsoft SQL Server 2005数据库
+把\Database\jb_crm_team0_Data.MDF导入数据库中：
+在企业管理器中选择“数据库→所有任务→附加数据库”来导入数据库。
+将程序发布到Tomcat下
+（1）将“\hongjiu.war”文件夹拷贝到Tomcat安装路径下的webapps文件夹中。
+（2）选择开始菜单中的“所有程序\Apache Tomcat 6.0\Monitor Tomcat”命令，这时在windows的系统托盘中会显示标识Tomcat服务器启动状态的图标，如果显示为 ，则说明Tomcat服务器没有启动，这时可以在该图标上单击鼠标右键在弹出的快捷菜单中选择“Start Service”菜单项启动Tomcat服务器，启动后将显示为 。
+（3）打开IE浏览器，在地址栏中输入http://localhost:8080/，进入“Tomcat软件管理”页面。
+注意：8080为安装Tomcat时设置的端口号。
+（4）单击Tomcat Manager超链接，弹出“连接到 localhost”对话框。
+（5）在用户名及密码处输入登录Tomcat的用户名和密码，单击【确定】按钮。
+（6）进入“Tomcat应用程序管理”页面，在此页面中单击“blog”，进入本程序主页面，完成Tomcat配置。
